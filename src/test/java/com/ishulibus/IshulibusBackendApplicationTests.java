@@ -1,4 +1,4 @@
-package IshuliBus_Backend;
+package com.ishulibus;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,5 +9,4 @@ class IshulibusBackendApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
