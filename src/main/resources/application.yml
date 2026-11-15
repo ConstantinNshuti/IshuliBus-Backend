@@ -10,3 +10,7 @@ management:
     web:
       exposure:
         include: health,info
+  endpoint:
+    health:
+      show-details: never
+      show-components: never
