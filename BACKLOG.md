@@ -107,7 +107,7 @@ Required.
 Historical GitHub Issue: #3
 
 Status:
-HISTORICAL_IN_PROGRESS
+DONE
 
 Tasks:
 
@@ -124,8 +124,11 @@ Acceptance Criteria:
 - Tests pass.
 - No sensitive health details are exposed.
 
-Next Action:
-Inspect existing implementation before proposing changes.
+Result:
+Actuator /actuator/health is the single health check
+(show-details and show-components: never). Custom
+/api/health endpoint removed. Covered by HealthEndpointTests.
+Merged via PR #94.
 
 ### B01-04 – Global Exception Handling
 
